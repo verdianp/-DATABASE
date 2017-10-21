@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/*==========================================*/
+.logo
+{
+  width: 400px;
+  height: 180px;
+}
+
+#container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    /*background-color: #fdc2db;*/
+    box-shadow: 0 0 25px #58585a;
+    background: #ffffff;
+}
+
+#container .Header {
+    font-size: 55px;
+    font-family: "billabong";
+    font-weight: ;
+    text-align: center;
+    color: #eb1278;
+}
+
+
+#container .subheader {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: "lato";
+    font-weight: lighter;
+}
+
+.content {
+
+    padding-top: 10px;
+}
+
+
+
+input[type="email"] {
+    padding: 10px 10px;
+    padding-top: 10px;
+    margin: 10px 50px 10px 40px;
+    width: 200px;
+    font-family: "cabin";
+}
+
+input[type="text"] {
+    padding: 10px 10px;
+    padding-top: 10px;
+    margin: 10px 50px 10px 40px;
+    width: 200px;
+    font-family: "cabin";
+}
+
+input[type="password"] {
+    padding: 10px 10px;
+    margin: 10px 50px 10px 40px;
+    width: 200px;
+    font-family: "cabin";
+}
+
+input[type="submit"] {
+    margin: 10px 50px 10px 40px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    width: 225px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    box-shadow: 0 0 4px #ff55ed;
+    font-family: "ubuntu";
+}
+
+#container .Footer {
+    margin: 5px;
+    padding: 10px auto;
+    font-size: 16px;
+    text-align: center;
+    font-family: "dosis";
+    font-weight: lighter;
+}
+
+
+
+table{
+	font-size: 100px;
+}
+
+
+/*HASILNYA BRO*/
+
+#container .hasil {
+	text-align: justify-all;
+	font-size: 14px;
+	font-family: "dosis";
+	font-weight: lighter;
+}
+
+#container .hasil .email{
+	padding: 10px;
+	margin:15px;
+	width: 250px;
+     border-radius: 5px;
+	background-color: #ffc2f7;
+}
+
+#container .hasil .fullname{
+	padding: 10px;
+	margin:15px;
+	width: 250px;
+ border-radius: 5px;
+	background-color: #ffc2f7;
+}
+
+#container .hasil .user{
+	padding: 10px;
+	margin:15px;
+	width: 250px;
+    border-radius: 5px;
+	background-color: #ffc2f7;
+}
+
+#container .hasil .pw{
+	padding: 10px;
+	margin:15px;
+	width: 250px;
+    border-radius: 5px;
+	background-color: #ffc2f7;
+}
